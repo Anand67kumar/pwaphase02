@@ -1,0 +1,50 @@
+body{
+  background: #F9E79F;
+  /* align-items: center; */
+  text-align: center;
+
+}
+.parent{
+  width: 90%;
+  margin:5%;
+  border: 3px solid #1B2631;
+  display: flex;
+  flex-wrap: wrap;
+}
+.carrer,.skills{
+  width: 90%;
+  border: 2px solid #1B2631;
+  margin: 2%;
+  padding: 3%;
+  text-align: center;
+  background: #85C1E9;
+}
+.details{
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  background: #85C1E9;
+  border: 2PX SOLID #1B2631;
+}
+button{
+  margin: 2%;
+  padding: 2%;
+}
+/* .skills{
+  width: 90%;
+  margin: 2%;
+  padding: 3%;
+  border: 2px solid #1B2631;
+  background: #85C1E9;
+  text-align: center; */
+}
+#button{
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+input,select{
+  width: 80%;
+  margin: 2%;
+}

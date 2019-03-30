@@ -1,0 +1,66 @@
+body{
+  background:#33FDFF ;
+}
+h1{
+  text-align: center;
+}
+.parent{
+  background: #FF339F;
+  display: flex;
+  justify-content:center;
+  margin: 3%;
+  padding: 2%;
+  text-align: center;
+  border: 2px solid #24262D  ;
+  border-radius: 5%;
+  width: 85%;
+
+}
+.child1{
+  background: #73FF33  ;
+  width:25%;
+  padding: 2%;
+  margin: 3%;
+  text-align: center;
+  border: 2px solid #24262D  ;
+  border-radius: 5%;
+}
+.child2{
+  background: #338CFF  ;
+  width:25%;
+  padding: 2%;
+  margin: 3%;
+  text-align: center;
+  border: 2px solid #24262D  ;
+  border-radius: 5%;
+
+
+}
+
+
+}
+img{
+  width:75%;
+  border: 2px solid #24262D  ;
+  border-radius: 2%;
+}
+@media screen and (max-width:767px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+  .chhild1{
+    width:100%;
+
+  }
+  .child2{
+    width: 100%;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .parent{
+      flex-wrap: wrap;
+    }
+    .child,.child2 {
+      width:35%;
+    }
+}
